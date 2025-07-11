@@ -1,0 +1,244 @@
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", "Arial";
+  background-color: #ffffff;
+  line-height: 1.6;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.haut-du-site {
+  background-color: #ffffff;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.contenant {
+  width: 90%;
+  max-width: 10000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: small;
+}
+
+.logo-lien {
+  display: inline-block;
+}
+
+.logo-img {
+  height: 60px;
+  width: auto;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.moi {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.moi h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.moi p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #055086;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0c6cb1;
+  transform: scale(1.05) translateY(-1px);
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.main-apropos {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.main-apropos h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.presentation p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.compétences ul {
+  list-style: disc inside;
+  padding-left: 0;
+}
+
+.compétences li {
+  margin: 6px 0;
+}
+
+.projet-main {
+  width: 90%;
+  max-width: 10000px;
+  margin: 40px auto;
+}
+
+.projet-main h2 {
+  font-size: 28px;
+  color: #49a8ec;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.grille-projets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.grille-projets .carte {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1 1 250px;
+  max-width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grille-projets .carte:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.grille-projets .carte h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.grille-projets .carte p {
+  font-size: 16px;
+  color: #666;
+}
+.haut-du-site nav a:hover {
+  color: rgb(139, 213, 237);
+  cursor: pointer;
+}
+
+.contact-main {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.contact-main h2 {
+  text-align: center;
+  color: #49a8ec;
+  margin-bottom: 20px;
+}
+
+.formulaire-contact {
+  background-color: #f9f9f9;
+  padding: 50px;
+  margin: 25px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  max-width: 8000px;
+}
+
+.formulaire-contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulaire-contact label,
+.formulaire-contact input,
+.formulaire-contact textarea {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.formulaire-contact input,
+.formulaire-contact textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.formulaire-contact input[type="submit"] {
+  background-color: #b27777;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.formulaire-contact input[type="submit"]:hover {
+  background-color: #0350bb;
+}
+
+.formulaire-contact textarea {
+  width: 250px;
+  height: 190px;
+}
+
+.btn-c {
+  background-color: #0c6cb1;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 8px 12px;
+  transition: background-color 0.3 ease, transforrm 0.2 ease;
+}
+
+.btn-c:hover {
+  background-color: #1782cf;
+  transform: scale(1.03);
+  cursor: pointer;
+}

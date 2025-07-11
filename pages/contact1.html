@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Mon Porfolio</title>
+    <link rel="stylesheet" href="../css1/style1.css" />
+  </head>
+  <body>
+    <header class="haut-du-site">
+      <div class="contenant">
+        <a href="../index1.html" class="logo-lien"
+          ><img src="../images/S.pdf.pdf" alt="Logo" class="logo-img"
+        /></a>
+        <nav>
+          <ul class="menu">
+            <li><a href="../index1.html">Acceuil</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="contact1.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="contact-main">
+      <h2>Contactez-moi</h2>
+
+      <form class="formulaire-contact">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required /><br />
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required /><br />
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" row="5" required></textarea><br />
+
+        <button type="submit" class="btn-c">Envoyer</button>
+      </form>
+    </main>
+  </body>
+</html>
